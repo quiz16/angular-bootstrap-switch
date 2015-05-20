@@ -68,6 +68,12 @@ angular.module('frapontillo.bootstrap-switch')
             'switchLabel': function(value) {
               return value ? value : '&nbsp;';
             },
+            'switchOnText': function (value) {
+              return value ? value : '&nbsp;';
+            },
+            'switchOffText': function (value) {
+              return value ? value : '&nbsp;';
+            },
             'switchIcon': function(value) {
               if (value) {
                 return '<span class=\'' + value + '\'></span>';
